@@ -6,8 +6,6 @@
 [![Low Resource](https://img.shields.io/badge/focus-Low--Resource%20Language-red.svg)]()
 [![Made in Africa](https://img.shields.io/badge/Made%20in-Africa-green.svg)]()
 
-> A curated list of resources for Natural Language Processing (NLP) in Wolof and related West African languages.
-
 Wolof is spoken by approximately 10 million people, primarily in Senegal, Gambia, and Mauritania. Despite this, NLP resources remain very scarce. This repo catalogs everything that exists — datasets, models, tools, papers — with comments to help you choose the right resource for your use case.
 
 **Contributions welcome!** See [CONTRIBUTING.md](#contributing).
