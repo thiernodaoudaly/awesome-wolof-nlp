@@ -1,12 +1,16 @@
-# awesome-wolof-nlp [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Wolof NLP 
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Language](https://img.shields.io/badge/language-Wolof-blue.svg)]()
+[![NLP](https://img.shields.io/badge/field-NLP-orange.svg)]()
+[![Low Resource](https://img.shields.io/badge/focus-Low--Resource%20Language-red.svg)]()
+[![Made in Africa](https://img.shields.io/badge/Made%20in-Africa-green.svg)]()
 
 > A curated list of resources for Natural Language Processing (NLP) in Wolof and related West African languages.
 
 Wolof is spoken by approximately 10 million people, primarily in Senegal, Gambia, and Mauritania. Despite this, NLP resources remain very scarce. This repo catalogs everything that exists — datasets, models, tools, papers — with comments to help you choose the right resource for your use case.
 
 **Contributions welcome!** See [CONTRIBUTING.md](#contributing).
-
----
 
 ## Contents
 
@@ -17,8 +21,6 @@ Wolof is spoken by approximately 10 million people, primarily in Senegal, Gambia
 - [Groups & Labs](#groups--labs)
 - [Related Languages](#related-languages)
 - [General African NLP Resources](#general-african-nlp-resources)
-
----
 
 ## Datasets
 
@@ -46,8 +48,6 @@ Wolof is spoken by approximately 10 million people, primarily in Senegal, Gambia
 
 - **[Wolof CLDR Data (Unicode)](https://github.com/unicode-org/cldr)** — Unicode localization data including some Wolof entries (month names, country names, etc.).
 
----
-
 ## Models & Embeddings
 
 - **[AfriBERTa](https://github.com/keleog/afriberta)** — Language model pre-trained on 11 African languages including Wolof. Based on XLM-R. The first truly multilingual African model. Good option for fine-tuning on classification or NER tasks.
@@ -59,8 +59,6 @@ Wolof is spoken by approximately 10 million people, primarily in Senegal, Gambia
 - **[NLLB-200 (Meta)](https://huggingface.co/facebook/nllb-200-distilled-600M)** — Meta's No Language Left Behind translation model supporting 200 languages including Wolof (`wol_Latn`). The 600M distilled version runs on CPU. **Best available Wolof translation model to date.**
 
 - **[Helsinki-NLP Opus-MT](https://huggingface.co/Helsinki-NLP)** — Lightweight translation models based on MarianMT. Search `wol` for available language pairs. Older than NLLB but much lighter.
-
----
 
 ## Tools
 
@@ -78,8 +76,6 @@ Wolof is spoken by approximately 10 million people, primarily in Senegal, Gambia
 
 - **[MasakhaNEWS Benchmark](https://github.com/masakhane-io/masakhane-news)** — News classification benchmark for African languages. Wolof not yet included, but worth watching.
 
----
-
 ## Papers & Research
 
 - **[MasakhaNER: Named Entity Recognition for African Languages (2021)](https://arxiv.org/abs/2103.11811)** — First large-scale NER resource for African languages. Wolof not included but the methodology is directly applicable. *Highly cited — a great entry point.*
@@ -91,8 +87,6 @@ Wolof is spoken by approximately 10 million people, primarily in Senegal, Gambia
 - **[Masakhane – Participatory Research for Low-resourced Machine Translation (2020)](https://arxiv.org/abs/2003.11529)** — Describes Masakhane's community-driven approach to building African NLP resources. *Inspiring read for understanding how to contribute to the ecosystem.*
 
 - **[Wolof Morphological Analysis (Dione, 2012)](https://aclanthology.org/L12-1396/)** — Formal morphological analysis of Wolof. Useful theoretical foundation before diving into NLP tools. *Dense but referenced in many subsequent works.*
-
----
 
 ## Groups & Labs
 
@@ -106,8 +100,6 @@ Wolof is spoken by approximately 10 million people, primarily in Senegal, Gambia
 
 - **[Université Cheikh Anta Diop (UCAD) – Dakar](https://www.ucad.sn/)** — Home to linguistics and computational linguistics researchers working on Wolof and Senegalese languages.
 
----
-
 ## Related Languages
 
 Resources for languages in the same family or region — useful for transfer learning and cross-lingual approaches.
@@ -120,8 +112,6 @@ Resources for languages in the same family or region — useful for transfer lea
 
 - **[GLOTTOLOG – Atlantic-Congo](https://glottolog.org/resource/languoid/id/atla1278)** — Reference for language classification in the region. Useful for understanding cross-lingual relationships.
 
----
-
 ## General African NLP Resources
 
 - **[OPUS – African Languages](https://opus.nlpl.eu/)** — Main portal for parallel corpora in African languages.
@@ -131,8 +121,6 @@ Resources for languages in the same family or region — useful for transfer lea
 - **[AfricaNLP Workshop (ACL)](https://africanlp.github.io/)** — Annual workshop dedicated to African NLP, co-located with major conferences (ACL, EMNLP). Great reading list to follow the state of the art.
 
 - **[Lacuna Fund](https://lacunafund.org/)** — Fund that finances dataset creation for underrepresented languages. Worth monitoring for funding opportunities.
-
----
 
 ## Contributing
 
@@ -145,14 +133,10 @@ Contributions are welcome! Before submitting a PR:
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
 
----
-
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 This repo is under CC0 — public domain. Use, copy, and modify freely.
-
----
 
 *Community maintained. Last updated: 2026.*
